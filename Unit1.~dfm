@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 329
+  Top = 107
+  Width = 270
+  Height = 118
+  Caption = 'NTTacPlus Password Decoder'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object bsSkinLinkLabel1: TbsSkinLinkLabel
+    Left = 81
+    Top = 57
+    Width = 103
+    Height = 14
+    Cursor = crHandPoint
+    UseSkinFont = True
+    DefaultActiveFontColor = clBlue
+    URL = 'http://www.TacSharp.com'
+    DefaultFont.Charset = DEFAULT_CHARSET
+    DefaultFont.Color = clWindowText
+    DefaultFont.Height = 14
+    DefaultFont.Name = 'Arial'
+    DefaultFont.Style = [fsUnderline]
+    SkinDataName = 'stdlabel'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 14
+    Font.Name = 'Arial'
+    Font.Style = [fsUnderline]
+    Caption = 'www.TacSharp.com'
+    ParentFont = False
+  end
+  object bsSkinStdLabel1: TbsSkinStdLabel
+    Left = 0
+    Top = 74
+    Width = 262
+    Height = 17
+    UseSkinFont = True
+    DefaultFont.Charset = DEFAULT_CHARSET
+    DefaultFont.Color = clWindowText
+    DefaultFont.Height = -11
+    DefaultFont.Name = 'MS Sans Serif'
+    DefaultFont.Style = []
+    SkinDataName = 'stdlabel'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    Align = alBottom
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'NTTacPlus Password Decoder by Shahab Sadeghi'
+    ParentFont = False
+    WordWrap = True
+  end
+  object Edit1: TEdit
+    Left = 5
+    Top = 3
+    Width = 160
+    Height = 21
+    TabOrder = 0
+    Text = 'Password to Decode'
+  end
+  object Button1: TButton
+    Left = 179
+    Top = 14
+    Width = 75
+    Height = 25
+    Caption = 'Decode'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Edit2: TEdit
+    Left = 5
+    Top = 28
+    Width = 160
+    Height = 21
+    TabOrder = 2
+    Text = 'Decoded Password'
+  end
+end
